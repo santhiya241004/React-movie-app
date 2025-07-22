@@ -1,0 +1,41 @@
+/* src/styles/SearchBar.css */
+.search-bar-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.search-bar-input {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.search-bar-input:focus {
+  outline: none;
+  border-color: #3182ce;
+}
+
+.search-bar-button {
+  padding: 10px 20px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar-button:hover {
+  background-color: #2563eb;
+}
