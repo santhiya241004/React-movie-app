@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import WatchlistPage from "./pages/WatchlistPage";
 import "./index.css";
-import MovieList from "./components/MovieList"; // ✅ Keep this
+import MovieList from "./components/MovieList"; 
 
 const App = () => {
   return (
