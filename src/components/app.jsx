@@ -1,11 +1,8 @@
 import React from "react";
 import MovieCard from "./components/MovieCard";
 import "./index.css";
-import MovieList from "./components/MovieList"; // ✅ correct path
+import MovieList from "./components/MovieList"; 
 
-
-
-// 👇 3 sample movie objects
 const movies = [
   {
     title: "Rayan",
