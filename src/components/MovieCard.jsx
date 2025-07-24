@@ -1,4 +1,3 @@
-// src/components/MovieCard.jsx
 import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../styles/MovieCard.css";
