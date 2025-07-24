@@ -1,9 +1,8 @@
-// src/utils/fetchMovieTrailer.js
 const TMDB_API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
 export const fetchTrailerUrl = async (movieTitle) => {
   try {
-    // Step 1: Search movie by name
+    
     const searchRes = await fetch(
       `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(movieTitle)}`
     );
@@ -12,7 +11,7 @@ export const fetchTrailerUrl = async (movieTitle) => {
 
     if (!movie) return null;
 
-    // Step 2: Fetch video info using movie ID
+    
     const videoRes = await fetch(
       `https://api.themoviedb.org/3/movie/${movie.id}/videos?api_key=${TMDB_API_KEY}`
     );
